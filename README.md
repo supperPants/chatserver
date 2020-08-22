@@ -15,8 +15,8 @@
 1. 执行./autobuild.sh
 2. 启动mysql服务  
    `service mysqld start`
-3. 执行sqlfile/目录下的mysql脚本文件，创建数据库
-   `source ./sqlfile/*`
+3. 执行sqlfile/目录下的mysql脚本文件，创建数据库  
+   `source ./sqlfile/database.sql`
 4. 执行bin/目录下ChatServer命令，启动服务器  
    `./ChatServer 127.0.0.1 6000`  
 5. 执行bin/目录下ChatClient命令，启动客户端  
