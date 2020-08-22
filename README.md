@@ -16,7 +16,7 @@
 2. 启动mysql服务  
    `service mysqld start`
 3. 执行sqlfile/目录下的mysql脚本文件，创建数据库
-   `source ./sqlfile/*`
+   `source ./sqlfile/database.sql`
 4. 执行bin/目录下ChatServer命令，启动服务器  
    `./ChatServer 127.0.0.1 6000`  
 5. 执行bin/目录下ChatClient命令，启动客户端  
@@ -26,6 +26,7 @@
 2. 启动mysql服务并创建数据库  
 3. 启动redis
 4. 配置nginx，配置如下：  
+   <div align=center><img src="./image/nginxetc.png"/></div>
 5. 启动nginx
 6. 开启两个chat服务器，分别在6000和6001端口  
    `./ChatServer 127.0.0.1 6000`  
@@ -59,6 +60,13 @@ chatserver:
 │      
 ├─build			#构建目录
 │      .gitkeep
+│      
+├─image		#readme图片
+│      chat1.png
+│      chat2.png
+│      nginx配置.png
+│      主界面.png
+│      启动界面.png
 │      
 ├─include			#头文件目录
 │  │  public.hpp
@@ -113,3 +121,13 @@ chatserver:
 └─thirdparty		#第三发工具
         json.hpp
 ```
+## 项目展示
+- 启动界面  
+  <div><img src="./image/boot.png"/></div>
+- 主界面  
+   <div><img src="./image/main.png"/></div>
+- 聊天功能
+   <div >
+   <img src="./image/chat1.png"/>
+   <img src="./image/chat2.png"/>
+   </div>
