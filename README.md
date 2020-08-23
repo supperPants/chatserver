@@ -129,5 +129,6 @@ chatserver:
 - 聊天功能
    <div >
    <img src="./image/chat1.png"/>
+   <p></p>
    <img src="./image/chat2.png"/>
    </div>
